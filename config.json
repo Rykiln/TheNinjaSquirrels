@@ -1,0 +1,4 @@
+{
+    "iconClient":"client.user.displayAvatarURL()",
+    "iconGuild":"msgObject.guild.iconURL"
+}
