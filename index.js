@@ -36,7 +36,9 @@ for (const folder of commandFolders) {
 client.once(`ready`, () => {
     console.log(`${client.user.username} Bot Is Now Online!`);
     console.log(`This bot is a Tier ${client.guilds.resolve(GuildID).premiumTier} server with ${client.guilds.resolve(GuildID).premiumSubscriptionCount} boosts!`);
-    client.user.setActivity(`${client.user.username} | .help`, { type: "PLAYING" });
+    console.log(Date());
+    console.log(`========================================`);
+    console.log();client.user.setActivity(`${client.user.username} | .help`, { type: "PLAYING" });
 });
 
 // Client Guild Member Join
